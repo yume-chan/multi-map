@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiMap #add should add value if key exists 1`] = `
+MultiMap {
+  "_map": Map {
+    "key" => Set {
+      "value1",
+      "value2",
+    },
+  },
+}
+`;
+
+exports[`MultiMap #add should add value if key not exists 1`] = `
+MultiMap {
+  "_map": Map {
+    "key" => Set {
+      "value",
+    },
+  },
+}
+`;
+
+exports[`MultiMap #add should not add duplicate values 1`] = `
+MultiMap {
+  "_map": Map {
+    "key" => Set {
+      "value1",
+    },
+  },
+}
+`;
+
+exports[`MultiMap #delete should delete and return true if the key exists 1`] = `
+MultiMap {
+  "_map": Map {},
+}
+`;
+
+exports[`MultiMap #delete should delete and return true if the value exists 1`] = `
+MultiMap {
+  "_map": Map {
+    "key" => Set {},
+  },
+}
+`;
+
+exports[`MultiMap #delete should return false if the key not exists 1`] = `
+MultiMap {
+  "_map": Map {},
+}
+`;
+
+exports[`MultiMap #delete should return false if the value not exists 1`] = `
+MultiMap {
+  "_map": Map {},
+}
+`;

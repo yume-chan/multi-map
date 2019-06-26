@@ -1,0 +1,32 @@
+{
+  "name": "@yume-chan/multi-map",
+  "version": "1.0.2",
+  "description": "A single key multiple values map",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yume-chan/multi-map.git"
+  },
+  "author": "Simon Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yume-chan/multi-map/issues"
+  },
+  "homepage": "https://github.com/yume-chan/multi-map#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  }
+}
