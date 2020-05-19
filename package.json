@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/yume-chan/multi-map#readme",
   "devDependencies": {
-    "@types/jest": "24.9.1",
+    "@types/jest": "25.2.3",
     "jest": "26.0.1",
     "ts-jest": "24.3.0",
     "typescript": "3.9.2"
